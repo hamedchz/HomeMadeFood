@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'IRANSans';
+  src: url('../fonts/IRANSansWeb.eot');
+  src: url('../fonts/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/IRANSansWeb.woff') format('woff'),
+    url('../fonts/IRANSansWeb.woff2') format('woff2'),
+    url('../fonts/IRANSansWeb.ttf') format('truetype');
+  font-weight: normal;
+  unicode-range: U+0030-0039;
+}
+
+
+@font-face {
+  font-family: "Alibaba-Regular";
+  src: url(../../../frontend/assets/fonts/Alibaba-Regular.woff2) format("woff2"),
+    url(../../../frontend/assets/fonts/Alibaba-Regular.woff) format("woff");
+  font-display: swap;
+
+  /* unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF; */
+  unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF, U+200C, U+200D;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecg.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1EFF, U+20AC, U+2020, U+2030, U+2122, U+2212, U+2215;
+  /* Latin (English) */
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "Alibaba-Regular", 'IRANSans', 'Poppins' !important;
+
+}
+
+
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+p,
+small,
+strong,
+select,
+option,
+button,
+label,
+input,
+textarea {
+  font-family: "Alibaba-Regular", 'IRANSans', 'Poppins' !important;
+
+}
