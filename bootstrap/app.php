@@ -20,22 +20,22 @@ return Application::configure(basePath: dirname(__DIR__))
             //     ->middleware(['web', 'auth'])
             //     ->name('customer.')
             //     ->group(base_path('routes/customer.php'));
-            Route::prefix('{locale}/dashboard')
-                ->middleware(['web', 'auth', 'check-email-verification'])
-                ->name('member.')
-                ->group(base_path('routes/member.php'));
-            Route::prefix('{locale}/admin')
-                ->middleware(['web', 'auth'])
-                ->name('admin.')
-                ->group(base_path('routes/admin.php'));
-            Route::prefix('check')
+            Route::prefix('{locale}/business')
                 ->middleware(['web'])
-                ->name('check.')
-                ->group(base_path('routes/check.php'));
-            Route::prefix('{locale}')
-                ->middleware(['web'])
-                ->name('auth.')
-                ->group(base_path('routes/auth.php'));
+                ->name('business.')
+                ->group(base_path('routes/business.php'));
+            // Route::prefix('{locale}/admin')
+            //     ->middleware(['web', 'auth'])
+            //     ->name('admin.')
+            //     ->group(base_path('routes/admin.php'));
+            // Route::prefix('check')
+            //     ->middleware(['web'])
+            //     ->name('check.')
+            //     ->group(base_path('routes/check.php'));
+            // Route::prefix('{locale}')
+            //     ->middleware(['web'])
+            //     ->name('auth.')
+            //     ->group(base_path('routes/auth.php'));
             // Route::prefix('api')
             //     ->group(base_path('routes/api.php'));
         },

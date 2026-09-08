@@ -21,6 +21,6 @@ class Sidebar extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('layouts.member.partials.sidebar');
+        return view('layouts.business.partials.sidebar');
     }
 }
